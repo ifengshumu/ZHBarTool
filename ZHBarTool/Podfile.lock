@@ -1,0 +1,16 @@
+PODS:
+  - ZHBarTool (1.3.1)
+
+DEPENDENCIES:
+  - ZHBarTool (from `../`)
+
+EXTERNAL SOURCES:
+  ZHBarTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHBarTool: b43d42a297e43b5f3c731fd1f847c6c2c39af5aa
+
+PODFILE CHECKSUM: 212341645f896e44b755272ea7ed7987b3897ca6
+
+COCOAPODS: 1.5.3

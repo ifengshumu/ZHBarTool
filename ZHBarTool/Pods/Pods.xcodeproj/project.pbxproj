@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		136ACB104260C5DFE0EC5044BAD06AFD /* ZHBarSacnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB569DECB197B9F73E481E95C1AF7A /* ZHBarSacnView.m */; };
+		3F6BA2523C22A4A7F9F828E1C1C6B0AE /* ZHBarSacnView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EBDC2A2895CABEFD793AC51DA4EB3E /* ZHBarSacnView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A7A1149E19D3AE84EC1DF5F25A4464D /* Pods-ZHBarTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B7F4342B9B2214B48BF3208F7D363 /* Pods-ZHBarTool-dummy.m */; };
+		53152040D1069A9A732ABFEF2B5F592D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 486926E6BEBC04599FECF0DDCD5DF473 /* AVFoundation.framework */; };
+		5D64C52F65AEB8213AC7F190AAC8A088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECE7CF5A093B02A414140A7D9D684C3 /* UIKit.framework */; };
+		604E405BA6A7352C5C92276F75969A84 /* ZHBarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE77E5BD07CF64A45D6984F1FAA93F /* ZHBarTool.m */; };
+		90A773875D81A585B829C64069974850 /* ZHBarTool.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6605E5489D18727649878418570C32 /* ZHBarTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7BC320C865C66D121D2ADA40C5E7678 /* ZHBarTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CF3A4C5598B04D28A18BB79778455D /* ZHBarTool-dummy.m */; };
+		CBB9B32CF952D17C4540CFD97B2C2724 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9F6F66216F8CCD0A54A9D4F28647FE /* CoreImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C63C87FD81AB8F448801B36669FDB9DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CB6B74025A3E90A164CE712859AA38;
+			remoteInfo = ZHBarTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DB569DECB197B9F73E481E95C1AF7A /* ZHBarSacnView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHBarSacnView.m; path = Pod/Classes/ZHBarSacnView.m; sourceTree = "<group>"; };
+		0A2A8B85822F32834ED5B887288D2812 /* ZHBarTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHBarTool-prefix.pch"; sourceTree = "<group>"; };
+		2263B5E51284230BF72E7A834642A53E /* Pods-ZHBarTool-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHBarTool-acknowledgements.markdown"; sourceTree = "<group>"; };
+		227DEEAD782F95D23D477915FF9653EE /* ZHBarTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHBarTool.xcconfig; sourceTree = "<group>"; };
+		27BBE5670E0BE1C86A82E145ADB02ECC /* Pods-ZHBarTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHBarTool.debug.xcconfig"; sourceTree = "<group>"; };
+		3F93E61DC0070AE8D55680E7A5919E1B /* Pods-ZHBarTool-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHBarTool-frameworks.sh"; sourceTree = "<group>"; };
+		486926E6BEBC04599FECF0DDCD5DF473 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A5B7F4342B9B2214B48BF3208F7D363 /* Pods-ZHBarTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHBarTool-dummy.m"; sourceTree = "<group>"; };
+		4A9DD579FCDB751478D0E1C9F59D6808 /* Pods-ZHBarTool-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHBarTool-resources.sh"; sourceTree = "<group>"; };
+		58CF3A4C5598B04D28A18BB79778455D /* ZHBarTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHBarTool-dummy.m"; sourceTree = "<group>"; };
+		5A9F6F66216F8CCD0A54A9D4F28647FE /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		5ABA305C61F0EB5C3E771D49F63D8BA8 /* ZHBarTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZHBarTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5BDF6850DA06FE35B5BA41C037CE5B20 /* libPods-ZHBarTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZHBarTool.a"; path = "libPods-ZHBarTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		674CE3938CA4C4D4DB0929E10B2DDE4A /* ZHBarTool.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZHBarTool.bundle; path = Pod/Assets/ZHBarTool.bundle; sourceTree = "<group>"; };
+		6771F60A9795854FBA8F73E34D226A4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		69EBDC2A2895CABEFD793AC51DA4EB3E /* ZHBarSacnView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHBarSacnView.h; path = Pod/Classes/ZHBarSacnView.h; sourceTree = "<group>"; };
+		7B39BB43C1B81C37C6D4156E3404756A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		89AE77E5BD07CF64A45D6984F1FAA93F /* ZHBarTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHBarTool.m; path = Pod/Classes/ZHBarTool.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AECE7CF5A093B02A414140A7D9D684C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA8891A0AA6F4E6A8D5125ED205378BD /* Pods-ZHBarTool-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHBarTool-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE6605E5489D18727649878418570C32 /* ZHBarTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHBarTool.h; path = Pod/Classes/ZHBarTool.h; sourceTree = "<group>"; };
+		E83236DDAC4AA85028C640A6BDBB2BAB /* Pods-ZHBarTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHBarTool.release.xcconfig"; sourceTree = "<group>"; };
+		ED2764B016122692EF2818496239676D /* libZHBarTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZHBarTool.a; path = libZHBarTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A20FA8AF4DC0B55D7BF42F27B18B5E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B137A6C4F480F39906754DC4105C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53152040D1069A9A732ABFEF2B5F592D /* AVFoundation.framework in Frameworks */,
+				CBB9B32CF952D17C4540CFD97B2C2724 /* CoreImage.framework in Frameworks */,
+				5D64C52F65AEB8213AC7F190AAC8A088 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFC7039A25CD2E2E288B6F5F519FB075 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1703B9137C5FBDA92B05EB878B68E6EE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0BFD6625B5B80B99C4BE668341E27B3 /* ZHBarTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		25E23870A66B26D0E1322E14DA8BF530 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				227DEEAD782F95D23D477915FF9653EE /* ZHBarTool.xcconfig */,
+				58CF3A4C5598B04D28A18BB79778455D /* ZHBarTool-dummy.m */,
+				0A2A8B85822F32834ED5B887288D2812 /* ZHBarTool-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "ZHBarTool/Pods/Target Support Files/ZHBarTool";
+			sourceTree = "<group>";
+		};
+		52F025F64443CDAA4E6E33FDFD3241C0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7B39BB43C1B81C37C6D4156E3404756A /* LICENSE */,
+				6771F60A9795854FBA8F73E34D226A4F /* README.md */,
+				5ABA305C61F0EB5C3E771D49F63D8BA8 /* ZHBarTool.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		63F3946BD4EC30A4711CFDB70A9F1825 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5201B26C7FF32A065174806C3BDBFD /* Pods-ZHBarTool */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		695A46AB0DDDCE7F377E8F77265ADD7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BDF6850DA06FE35B5BA41C037CE5B20 /* libPods-ZHBarTool.a */,
+				ED2764B016122692EF2818496239676D /* libZHBarTool.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1703B9137C5FBDA92B05EB878B68E6EE /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				695A46AB0DDDCE7F377E8F77265ADD7B /* Products */,
+				63F3946BD4EC30A4711CFDB70A9F1825 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A6911BC7F06380CD7556D23897E17F4C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				674CE3938CA4C4D4DB0929E10B2DDE4A /* ZHBarTool.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B0BFD6625B5B80B99C4BE668341E27B3 /* ZHBarTool */ = {
+			isa = PBXGroup;
+			children = (
+				69EBDC2A2895CABEFD793AC51DA4EB3E /* ZHBarSacnView.h */,
+				01DB569DECB197B9F73E481E95C1AF7A /* ZHBarSacnView.m */,
+				CE6605E5489D18727649878418570C32 /* ZHBarTool.h */,
+				89AE77E5BD07CF64A45D6984F1FAA93F /* ZHBarTool.m */,
+				52F025F64443CDAA4E6E33FDFD3241C0 /* Pod */,
+				A6911BC7F06380CD7556D23897E17F4C /* Resources */,
+				25E23870A66B26D0E1322E14DA8BF530 /* Support Files */,
+			);
+			name = ZHBarTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EA5201B26C7FF32A065174806C3BDBFD /* Pods-ZHBarTool */ = {
+			isa = PBXGroup;
+			children = (
+				2263B5E51284230BF72E7A834642A53E /* Pods-ZHBarTool-acknowledgements.markdown */,
+				BA8891A0AA6F4E6A8D5125ED205378BD /* Pods-ZHBarTool-acknowledgements.plist */,
+				4A5B7F4342B9B2214B48BF3208F7D363 /* Pods-ZHBarTool-dummy.m */,
+				3F93E61DC0070AE8D55680E7A5919E1B /* Pods-ZHBarTool-frameworks.sh */,
+				4A9DD579FCDB751478D0E1C9F59D6808 /* Pods-ZHBarTool-resources.sh */,
+				27BBE5670E0BE1C86A82E145ADB02ECC /* Pods-ZHBarTool.debug.xcconfig */,
+				E83236DDAC4AA85028C640A6BDBB2BAB /* Pods-ZHBarTool.release.xcconfig */,
+			);
+			name = "Pods-ZHBarTool";
+			path = "Target Support Files/Pods-ZHBarTool";
+			sourceTree = "<group>";
+		};
+		EFC7039A25CD2E2E288B6F5F519FB075 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				486926E6BEBC04599FECF0DDCD5DF473 /* AVFoundation.framework */,
+				5A9F6F66216F8CCD0A54A9D4F28647FE /* CoreImage.framework */,
+				AECE7CF5A093B02A414140A7D9D684C3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D672106A18C32E0445A6B2C549B467E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6BA2523C22A4A7F9F828E1C1C6B0AE /* ZHBarSacnView.h in Headers */,
+				90A773875D81A585B829C64069974850 /* ZHBarTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		708E4B2F9B83B58D894469138E0727EB /* Pods-ZHBarTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46B23A4C867D98AE0E063450CC05F85 /* Build configuration list for PBXNativeTarget "Pods-ZHBarTool" */;
+			buildPhases = (
+				E17D021F9DC79DAB5EE13DFD51C66503 /* Sources */,
+				A20FA8AF4DC0B55D7BF42F27B18B5E42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2FF35209BBEAE325A8626AF9519582E /* PBXTargetDependency */,
+			);
+			name = "Pods-ZHBarTool";
+			productName = "Pods-ZHBarTool";
+			productReference = 5BDF6850DA06FE35B5BA41C037CE5B20 /* libPods-ZHBarTool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A7CB6B74025A3E90A164CE712859AA38 /* ZHBarTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D45CE3A59391976C3B675063588AC9 /* Build configuration list for PBXNativeTarget "ZHBarTool" */;
+			buildPhases = (
+				CAC2E3C439E0EE5CE4112554AD2710DE /* Sources */,
+				B7B137A6C4F480F39906754DC4105C11 /* Frameworks */,
+				8D672106A18C32E0445A6B2C549B467E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHBarTool;
+			productName = ZHBarTool;
+			productReference = ED2764B016122692EF2818496239676D /* libZHBarTool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 695A46AB0DDDCE7F377E8F77265ADD7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				708E4B2F9B83B58D894469138E0727EB /* Pods-ZHBarTool */,
+				A7CB6B74025A3E90A164CE712859AA38 /* ZHBarTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC2E3C439E0EE5CE4112554AD2710DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136ACB104260C5DFE0EC5044BAD06AFD /* ZHBarSacnView.m in Sources */,
+				B7BC320C865C66D121D2ADA40C5E7678 /* ZHBarTool-dummy.m in Sources */,
+				604E405BA6A7352C5C92276F75969A84 /* ZHBarTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17D021F9DC79DAB5EE13DFD51C66503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7A1149E19D3AE84EC1DF5F25A4464D /* Pods-ZHBarTool-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2FF35209BBEAE325A8626AF9519582E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZHBarTool;
+			target = A7CB6B74025A3E90A164CE712859AA38 /* ZHBarTool */;
+			targetProxy = C63C87FD81AB8F448801B36669FDB9DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		260F4334EE0B32F831ADE8F78670F738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227DEEAD782F95D23D477915FF9653EE /* ZHBarTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZHBarTool/ZHBarTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZHBarTool;
+				PRODUCT_NAME = ZHBarTool;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5415FDD52E5C3CD6DA2C78EADB396C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BBE5670E0BE1C86A82E145ADB02ECC /* Pods-ZHBarTool.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58933B1753B7CF1A335FFF8C719FB003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E83236DDAC4AA85028C640A6BDBB2BAB /* Pods-ZHBarTool.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB08005AC25456C3F8A92295FB18AC3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227DEEAD782F95D23D477915FF9653EE /* ZHBarTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZHBarTool/ZHBarTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZHBarTool;
+				PRODUCT_NAME = ZHBarTool;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D45CE3A59391976C3B675063588AC9 /* Build configuration list for PBXNativeTarget "ZHBarTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260F4334EE0B32F831ADE8F78670F738 /* Debug */,
+				AB08005AC25456C3F8A92295FB18AC3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46B23A4C867D98AE0E063450CC05F85 /* Build configuration list for PBXNativeTarget "Pods-ZHBarTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5415FDD52E5C3CD6DA2C78EADB396C91 /* Debug */,
+				58933B1753B7CF1A335FFF8C719FB003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
